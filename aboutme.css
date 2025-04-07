@@ -1,0 +1,77 @@
+body {
+    background-image: url(aboutmebg.png);
+    background-size: cover;
+
+}
+
+.mediv1 {
+    height: 100px;
+    margin-bottom: 200px;
+    border-radius: 45%;
+    background-color: rgba(121, 47, 47, 0.75);
+    padding: 100px;
+
+    /* background-color: rgba(141, 128, 128, 0.25);
+    display: flex;*/
+    flex-direction: column;
+    /* align-items: center; */
+    display: inline-block;
+    margin: 100px;
+    /* margin left: 200px; */
+
+    /* margin-top: 100px; 
+    margin-bottom: 600px;
+    padding: 100px;
+    border-radius: 40%; */
+
+}
+
+/* .mediv1:hover{
+    background-color: rgba(146, 51, 51, 0.75); 
+} */
+.me {
+    font-size: 1.05rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.mediv1:hover {
+    font-weight: 400;
+    background-color: rgba(66, 13, 13, 0.56);
+    color: rgb(255, 255, 255);
+}
+
+.me:hover {
+    /* font-size: 1.05rem; */
+    font-weight: 800;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(100, 18, 18, 0.56);
+
+}
+
+/* .mediv1 fieldset{
+    color: black;
+} */
+.mediv1 legend {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(3, 1, 1, 0.75);
+}
+
+.footerdiv a {
+    background-color: rgba(96, 9, 9, 0.75);
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 300px;
+    margin-bottom: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.footerdiv a:hover {
+    color: rgb(161, 139, 139);
+    font-weight: 800;
+}

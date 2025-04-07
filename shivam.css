@@ -1,0 +1,13 @@
+.level{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.level:after{
+    content:"Bengali";
+
+}
+.level:hover:after{
+    content:"বাংলা";
+
+}

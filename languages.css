@@ -1,0 +1,116 @@
+body {
+    /* background: linear-gradient(rgba(232, 68, 185, 0.25), rgba(232, 68, 185, 0.25)), url(langbg2.jpg); */
+    background-size: cover;
+    /* background-image: url(langbg2.jpg); */
+    /* backdrop-filter: invert(80%); */
+    /* height: 200px; */
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+/* .legend {
+    color: rgb(10, 9, 9);
+    font-size: 2rem;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.body h1 {
+    /* display: flex;
+    align-items: center; */
+    /* backdrop-filter: invert(80%); */
+    background-color: aquamarine;
+}
+
+.langdiv {
+    height: 150px;
+    font-size: 1.25rem;
+    /* margin-left: 20px; */
+    background-color: rgba(59, 5, 110, 0.85);
+    padding: 50px;
+    display: inline-block;
+    /* display: flex; */
+
+    border-radius: 15% 0%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+/*
+.langdiv:after {
+    content: "English";
+    background-color: blueviolet;
+
+}
+
+.langdiv:hover {
+    font-size: 200px;
+    background-color: black;
+}
+
+.langdiv:after {
+    content: "Hindi";
+
+}
+
+.langdiv:hover:after {
+    content: "हिन्दी";
+}
+
+.langdiv:after {
+    content: "Bengali";
+
+}
+
+.langdiv:hover:after {
+    content: "বাংলা";
+
+} */
+.hindi:after {
+    content: "Hindi";
+}
+
+.hindi:hover:after {
+    content: "हिन्दी";
+    font-size: 1.4rem;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.bengali:after {
+    content: "Bengali";
+}
+
+.bengali:hover:after {
+    content: "বাংলা";
+    font-size: 1.4rem;
+}
+
+.english:hover {
+    /* font-weight: bold; */
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerdiv a {
+    /* background-color: rgba(160, 27, 125, 0.75); */
+    background-color: rgba(161, 94, 224, 0.75);
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    /* margin-top: 300px; */
+    /* margin-top: 0%; */
+    margin-top: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 4, 28);
+    text-decoration: none;
+}
+
+.footerdiv a:hover {
+    color: rgb(124, 13, 80);
+    font-weight: 800;
+}
